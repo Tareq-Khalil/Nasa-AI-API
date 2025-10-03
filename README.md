@@ -1,11 +1,11 @@
-# 🚀 Astronaut Survival AI - Complete Setup Guide
+#  Astronaut Survival AI - Complete Setup Guide
 
-## 📋 Overview
+##  Overview
 This AI API can handle **unlimited data**, **any sensor fields**, and works both **locally and online** for your Unity game on itch.io.
 
 ---
 
-## 🔧 Part 1: Setting Up the Python API
+##  Part 1: Setting Up the Python API
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -59,7 +59,7 @@ You should see:
 
 ---
 
-## 🎮 Part 2: Setting Up Unity
+##  Part 2: Setting Up Unity
 
 ### Step 1: Create Unity Scripts
 
@@ -112,7 +112,7 @@ Example with custom fields:
 
 ---
 
-## 🎯 Part 3: Training the Model
+##  Part 3: Training the Model
 
 ### Option A: Train from Unity
 
@@ -153,7 +153,7 @@ curl -X POST -F "file=@my_training_data.json" http://localhost:8000/train
 
 ---
 
-## 🔥 Part 4: Using in Your Game
+##  Part 4: Using in Your Game
 
 ### Basic Usage
 
@@ -236,16 +236,16 @@ aiManager.CheckAstronautStatus(customData);
 
 ---
 
-## 🌐 Part 5: Deploying for itch.io
+##  Part 5: Deploying for itch.io
 
 ### For Desktop Builds (Windows/Mac/Linux)
-✅ **Works perfectly offline!**
+ **Works perfectly offline!**
 - The AI runs on the player's computer
 - Train model during first launch
 - Include `training_data.json` in StreamingAssets
 
 ### For WebGL Builds (Browser)
-⚠️ **Requires hosted API**
+ **Requires hosted API**
 
 You need to deploy the Python API to a server:
 
@@ -309,7 +309,7 @@ public class AstronautAIManager : MonoBehaviour
 
 ---
 
-## 📊 Part 6: API Endpoints Reference
+##  Part 6: API Endpoints Reference
 
 ### 1. Health Check
 ```
@@ -354,7 +354,7 @@ Get information about trained model.
 
 ---
 
-## 🎨 Part 7: Example Training Data Format
+##  Part 7: Example Training Data Format
 
 ### Minimal Example
 ```json
@@ -401,7 +401,7 @@ Get information about trained model.
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### API Won't Start
 ```bash
@@ -433,7 +433,7 @@ aiManager.CheckAstronautStatus(data);
 
 ---
 
-## 🚀 Quick Start Checklist
+##  Quick Start Checklist
 
 - [ ] Install Python dependencies
 - [ ] Run API with `uvicorn main:app --reload`
@@ -445,7 +445,7 @@ aiManager.CheckAstronautStatus(data);
 
 ---
 
-## 💡 Tips & Best Practices
+##  Tips & Best Practices
 
 1. **Training Data Size**: 
    - Minimum: 10 samples
@@ -468,9 +468,7 @@ aiManager.CheckAstronautStatus(data);
 
 ---
 
-## 📞 Need Help?
-
-Common questions:
+##  Need Help?
 
 **Q: Can I add unlimited sensor fields?**
 A: Yes! The API handles any number of fields automatically.
@@ -488,9 +486,3 @@ A: Yes for desktop builds, no for WebGL (needs hosted API).
 A: Depends on your training data. With good data: 85-95% accuracy.
 
 ---
-
-## 🎉 You're Ready!
-
-Your AI API is now set up and ready to monitor astronaut survival in your game. The system is flexible, powerful, and handles huge datasets automatically!
-
-Good luck with your NASA Space Apps Challenge! 🚀🌙
