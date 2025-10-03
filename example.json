@@ -1,0 +1,415 @@
+{
+  "training_data": {
+    "ships": [
+      {
+        "ship_id": "SHIP-001",
+        "ship_name": "Stellar Voyager",
+        "mission_outcome": "SUCCESS",
+        "will_reach_destination": true,
+        "mission_details": {
+          "destination": "Kepler-442b",
+          "distance_light_years": 1206,
+          "estimated_journey_days": 450,
+          "current_day": 180,
+          "progress_percentage": 40
+        },
+        "crew": {
+          "total_crew": 12,
+          "crew_health_average": 92,
+          "astronauts": 6,
+          "engineers": 4,
+          "scientists": 2,
+          "morale_score": 85
+        },
+        "life_support": {
+          "oxygen_level_percentage": 98,
+          "oxygen_generation_rate_kg_per_day": 12.5,
+          "oxygen_reserves_kg": 850,
+          "co2_scrubber_efficiency": 97,
+          "water_recycling_efficiency": 95,
+          "temperature_celsius": 21.5,
+          "humidity_percentage": 45,
+          "air_pressure_kpa": 101.2
+        },
+        "resources": {
+          "food": {
+            "total_rations_kg": 2800,
+            "daily_consumption_kg": 8.4,
+            "days_remaining": 333,
+            "nutritional_quality_score": 88
+          },
+          "water": {
+            "potable_water_liters": 4200,
+            "daily_consumption_liters": 36,
+            "recycling_recovery_rate": 93,
+            "days_remaining": 350
+          },
+          "fuel": {
+            "primary_fuel_percentage": 72,
+            "backup_fuel_percentage": 85,
+            "fuel_consumption_rate_optimal": true,
+            "estimated_fuel_at_destination": 15
+          }
+        },
+        "ship_systems": {
+          "propulsion": {
+            "status": "optimal",
+            "efficiency_percentage": 96,
+            "thrust_available_percentage": 100,
+            "last_maintenance_days_ago": 15
+          },
+          "navigation": {
+            "status": "optimal",
+            "course_deviation_degrees": 0.02,
+            "navigation_accuracy": 99.8,
+            "last_calibration_days_ago": 7
+          },
+          "communications": {
+            "status": "optimal",
+            "signal_strength_percentage": 89,
+            "last_earth_contact_hours_ago": 6,
+            "backup_systems_operational": true
+          },
+          "power_generation": {
+            "primary_reactor_output_percentage": 94,
+            "backup_reactor_output_percentage": 100,
+            "solar_panel_efficiency": 87,
+            "battery_charge_percentage": 92
+          },
+          "hull_integrity": {
+            "status": "excellent",
+            "integrity_percentage": 99.2,
+            "micro_meteor_impacts": 3,
+            "radiation_shielding_effectiveness": 96
+          }
+        },
+        "medical": {
+          "medical_supplies_percentage": 88,
+          "crew_injuries": 0,
+          "crew_illnesses": 1,
+          "psychological_assessments_score": 87,
+          "last_full_checkup_days_ago": 14
+        },
+        "alerts": {
+          "critical_alerts": 0,
+          "warnings": 1,
+          "maintenance_due": 2
+        },
+        "notes": "Ship is performing excellently. All systems nominal. Crew morale high. Minor warning for routine maintenance scheduling."
+      },
+      {
+        "ship_id": "SHIP-002",
+        "ship_name": "Cosmos Pioneer",
+        "mission_outcome": "FAILURE",
+        "will_reach_destination": false,
+        "mission_details": {
+          "destination": "Proxima Centauri b",
+          "distance_light_years": 4.24,
+          "estimated_journey_days": 520,
+          "current_day": 245,
+          "progress_percentage": 47
+        },
+        "crew": {
+          "total_crew": 10,
+          "crew_health_average": 68,
+          "astronauts": 5,
+          "engineers": 3,
+          "scientists": 2,
+          "morale_score": 52
+        },
+        "life_support": {
+          "oxygen_level_percentage": 84,
+          "oxygen_generation_rate_kg_per_day": 9.2,
+          "oxygen_reserves_kg": 280,
+          "co2_scrubber_efficiency": 76,
+          "water_recycling_efficiency": 71,
+          "temperature_celsius": 24.8,
+          "humidity_percentage": 62,
+          "air_pressure_kpa": 98.4
+        },
+        "resources": {
+          "food": {
+            "total_rations_kg": 1450,
+            "daily_consumption_kg": 7.8,
+            "days_remaining": 186,
+            "nutritional_quality_score": 61
+          },
+          "water": {
+            "potable_water_liters": 1820,
+            "daily_consumption_liters": 32,
+            "recycling_recovery_rate": 68,
+            "days_remaining": 195
+          },
+          "fuel": {
+            "primary_fuel_percentage": 38,
+            "backup_fuel_percentage": 45,
+            "fuel_consumption_rate_optimal": false,
+            "estimated_fuel_at_destination": -12
+          }
+        },
+        "ship_systems": {
+          "propulsion": {
+            "status": "degraded",
+            "efficiency_percentage": 71,
+            "thrust_available_percentage": 78,
+            "last_maintenance_days_ago": 67
+          },
+          "navigation": {
+            "status": "warning",
+            "course_deviation_degrees": 2.8,
+            "navigation_accuracy": 87.3,
+            "last_calibration_days_ago": 45
+          },
+          "communications": {
+            "status": "degraded",
+            "signal_strength_percentage": 54,
+            "last_earth_contact_hours_ago": 38,
+            "backup_systems_operational": false
+          },
+          "power_generation": {
+            "primary_reactor_output_percentage": 68,
+            "backup_reactor_output_percentage": 72,
+            "solar_panel_efficiency": 52,
+            "battery_charge_percentage": 61
+          },
+          "hull_integrity": {
+            "status": "compromised",
+            "integrity_percentage": 88.4,
+            "micro_meteor_impacts": 47,
+            "radiation_shielding_effectiveness": 74
+          }
+        },
+        "medical": {
+          "medical_supplies_percentage": 54,
+          "crew_injuries": 3,
+          "crew_illnesses": 4,
+          "psychological_assessments_score": 58,
+          "last_full_checkup_days_ago": 52
+        },
+        "alerts": {
+          "critical_alerts": 4,
+          "warnings": 12,
+          "maintenance_due": 8
+        },
+        "notes": "CRITICAL: Ship experiencing multiple system failures. Insufficient fuel to reach destination. Life support degrading. Crew health declining. Recommend emergency protocols."
+      },
+      {
+        "ship_id": "SHIP-003",
+        "ship_name": "Aurora Explorer",
+        "mission_outcome": "SUCCESS",
+        "will_reach_destination": true,
+        "mission_details": {
+          "destination": "TRAPPIST-1e",
+          "distance_light_years": 39.5,
+          "estimated_journey_days": 380,
+          "current_day": 290,
+          "progress_percentage": 76
+        },
+        "crew": {
+          "total_crew": 8,
+          "crew_health_average": 89,
+          "astronauts": 4,
+          "engineers": 3,
+          "scientists": 1,
+          "morale_score": 81
+        },
+        "life_support": {
+          "oxygen_level_percentage": 96,
+          "oxygen_generation_rate_kg_per_day": 9.8,
+          "oxygen_reserves_kg": 620,
+          "co2_scrubber_efficiency": 94,
+          "water_recycling_efficiency": 91,
+          "temperature_celsius": 22.1,
+          "humidity_percentage": 48,
+          "air_pressure_kpa": 100.8
+        },
+        "resources": {
+          "food": {
+            "total_rations_kg": 950,
+            "daily_consumption_kg": 6.8,
+            "days_remaining": 140,
+            "nutritional_quality_score": 84
+          },
+          "water": {
+            "potable_water_liters": 2850,
+            "daily_consumption_liters": 28,
+            "recycling_recovery_rate": 89,
+            "days_remaining": 165
+          },
+          "fuel": {
+            "primary_fuel_percentage": 28,
+            "backup_fuel_percentage": 78,
+            "fuel_consumption_rate_optimal": true,
+            "estimated_fuel_at_destination": 8
+          }
+        },
+        "ship_systems": {
+          "propulsion": {
+            "status": "optimal",
+            "efficiency_percentage": 93,
+            "thrust_available_percentage": 98,
+            "last_maintenance_days_ago": 22
+          },
+          "navigation": {
+            "status": "optimal",
+            "course_deviation_degrees": 0.08,
+            "navigation_accuracy": 99.2,
+            "last_calibration_days_ago": 12
+          },
+          "communications": {
+            "status": "optimal",
+            "signal_strength_percentage": 82,
+            "last_earth_contact_hours_ago": 9,
+            "backup_systems_operational": true
+          },
+          "power_generation": {
+            "primary_reactor_output_percentage": 91,
+            "backup_reactor_output_percentage": 96,
+            "solar_panel_efficiency": 83,
+            "battery_charge_percentage": 88
+          },
+          "hull_integrity": {
+            "status": "good",
+            "integrity_percentage": 97.8,
+            "micro_meteor_impacts": 8,
+            "radiation_shielding_effectiveness": 93
+          }
+        },
+        "medical": {
+          "medical_supplies_percentage": 72,
+          "crew_injuries": 0,
+          "crew_illnesses": 0,
+          "psychological_assessments_score": 83,
+          "last_full_checkup_days_ago": 18
+        },
+        "alerts": {
+          "critical_alerts": 0,
+          "warnings": 2,
+          "maintenance_due": 3
+        },
+        "notes": "Ship on track for successful arrival. Primary fuel low but backup reserves sufficient. All critical systems functioning well. Crew healthy and mission-ready."
+      },
+      {
+        "ship_id": "SHIP-004",
+        "ship_name": "Nebula Pathfinder",
+        "mission_outcome": "FAILURE",
+        "will_reach_destination": false,
+        "mission_details": {
+          "destination": "LHS 1140 b",
+          "distance_light_years": 40.7,
+          "estimated_journey_days": 410,
+          "current_day": 198,
+          "progress_percentage": 48
+        },
+        "crew": {
+          "total_crew": 14,
+          "crew_health_average": 64,
+          "astronauts": 7,
+          "engineers": 5,
+          "scientists": 2,
+          "morale_score": 48
+        },
+        "life_support": {
+          "oxygen_level_percentage": 79,
+          "oxygen_generation_rate_kg_per_day": 11.8,
+          "oxygen_reserves_kg": 340,
+          "co2_scrubber_efficiency": 68,
+          "water_recycling_efficiency": 63,
+          "temperature_celsius": 26.2,
+          "humidity_percentage": 71,
+          "air_pressure_kpa": 96.8
+        },
+        "resources": {
+          "food": {
+            "total_rations_kg": 1680,
+            "daily_consumption_kg": 9.6,
+            "days_remaining": 175,
+            "nutritional_quality_score": 56
+          },
+          "water": {
+            "potable_water_liters": 2100,
+            "daily_consumption_liters": 44,
+            "recycling_recovery_rate": 61,
+            "days_remaining": 168
+          },
+          "fuel": {
+            "primary_fuel_percentage": 42,
+            "backup_fuel_percentage": 38,
+            "fuel_consumption_rate_optimal": false,
+            "estimated_fuel_at_destination": -18
+          }
+        },
+        "ship_systems": {
+          "propulsion": {
+            "status": "critical",
+            "efficiency_percentage": 64,
+            "thrust_available_percentage": 71,
+            "last_maintenance_days_ago": 89
+          },
+          "navigation": {
+            "status": "degraded",
+            "course_deviation_degrees": 3.4,
+            "navigation_accuracy": 84.1,
+            "last_calibration_days_ago": 61
+          },
+          "communications": {
+            "status": "warning",
+            "signal_strength_percentage": 48,
+            "last_earth_contact_hours_ago": 52,
+            "backup_systems_operational": false
+          },
+          "power_generation": {
+            "primary_reactor_output_percentage": 61,
+            "backup_reactor_output_percentage": 58,
+            "solar_panel_efficiency": 44,
+            "battery_charge_percentage": 53
+          },
+          "hull_integrity": {
+            "status": "critical",
+            "integrity_percentage": 83.2,
+            "micro_meteor_impacts": 68,
+            "radiation_shielding_effectiveness": 67
+          }
+        },
+        "medical": {
+          "medical_supplies_percentage": 47,
+          "crew_injuries": 5,
+          "crew_illnesses": 6,
+          "psychological_assessments_score": 51,
+          "last_full_checkup_days_ago": 64
+        },
+        "alerts": {
+          "critical_alerts": 7,
+          "warnings": 18,
+          "maintenance_due": 11
+        },
+        "notes": "MISSION FAILURE IMMINENT: Catastrophic system degradation. Insufficient resources for journey completion. Life support failing. Hull integrity compromised. Crew health critical. Immediate abort and rescue required."
+      }
+    ],
+    "metadata": {
+      "dataset_version": "1.0",
+      "created_date": "2025-10-04",
+      "purpose": "AI training data for spacecraft mission outcome prediction",
+      "success_indicators": [
+        "Oxygen levels > 90%",
+        "Food days remaining > journey days remaining",
+        "Fuel sufficient for completion (positive estimated fuel at destination)",
+        "Life support systems > 85% efficiency",
+        "Hull integrity > 95%",
+        "Critical alerts = 0",
+        "Crew health average > 80%",
+        "System status = optimal or good"
+      ],
+      "failure_indicators": [
+        "Oxygen levels < 85%",
+        "Insufficient food or water for remaining journey",
+        "Negative estimated fuel at destination",
+        "Multiple critical alerts (> 3)",
+        "Life support efficiency < 75%",
+        "Hull integrity < 90%",
+        "Crew health average < 70%",
+        "System status = critical or degraded"
+      ]
+    }
+  }
+}
