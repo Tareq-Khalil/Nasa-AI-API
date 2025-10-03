@@ -1,1 +1,639 @@
-
+{
+  "training_data": {
+    "habitat_ships": [
+      {
+        "ship_id": "HAB-001",
+        "ship_name": "Foundation Builder Alpha",
+        "mission_outcome": "SUCCESS",
+        "will_reach_destination": true,
+        "ship_type": "habitat_precursor",
+        "mission_details": {
+          "destination": "Kepler-442b",
+          "destination_coordinates": "19h 02m 43s, +44° 16' 39\"",
+          "distance_light_years": 1206,
+          "estimated_journey_days": 580,
+          "current_day": 245,
+          "progress_percentage": 42,
+          "arrival_before_crew_days": 90,
+          "target_crew_ship": "SHIP-001"
+        },
+        "crew": {
+          "crew_type": "minimal_human",
+          "total_crew": 4,
+          "crew_health_average": 94,
+          "engineers": 2,
+          "scientists": 1,
+          "AI_technicians": 1,
+          "morale_score": 88,
+          "crew_in_stasis": false
+        },
+        "cargo_manifest": {
+          "habitat_modules": {
+            "living_quarters_units": 8,
+            "medical_facilities_units": 2,
+            "laboratory_units": 3,
+            "greenhouse_agricultural_units": 4,
+            "storage_units": 6,
+            "power_generation_units": 3,
+            "water_processing_units": 2,
+            "total_mass_tons": 450,
+            "deployment_readiness_percentage": 98
+          },
+          "construction_equipment": {
+            "automated_builders": 12,
+            "3d_printers_large": 4,
+            "excavation_drones": 8,
+            "solar_panel_arrays": 24,
+            "nuclear_reactors_portable": 2,
+            "total_mass_tons": 180,
+            "operational_status_percentage": 97
+          },
+          "supplies": {
+            "building_materials_tons": 520,
+            "food_reserves_tons": 85,
+            "water_initial_supply_liters": 50000,
+            "medical_supplies_tons": 15,
+            "scientific_equipment_tons": 42,
+            "spare_parts_tons": 68,
+            "seeds_genetic_vault_integrity": 99.8
+          },
+          "life_support_infrastructure": {
+            "oxygen_generators": 6,
+            "co2_scrubbers": 8,
+            "water_recycling_systems": 4,
+            "air_filtration_units": 12,
+            "backup_systems_redundancy": 3
+          }
+        },
+        "ship_systems": {
+          "propulsion": {
+            "status": "optimal",
+            "efficiency_percentage": 95,
+            "thrust_available_percentage": 100,
+            "last_maintenance_days_ago": 18,
+            "cargo_weight_compensation": "optimal"
+          },
+          "navigation": {
+            "status": "optimal",
+            "course_deviation_degrees": 0.03,
+            "navigation_accuracy": 99.7,
+            "last_calibration_days_ago": 10,
+            "autonomous_navigation_active": true
+          },
+          "communications": {
+            "status": "optimal",
+            "signal_strength_percentage": 91,
+            "last_earth_contact_hours_ago": 4,
+            "last_crew_ship_contact_hours_ago": 5,
+            "backup_systems_operational": true,
+            "deep_space_relay_functional": true
+          },
+          "power_generation": {
+            "primary_reactor_output_percentage": 96,
+            "backup_reactor_output_percentage": 100,
+            "solar_panel_efficiency": 89,
+            "battery_charge_percentage": 94,
+            "cargo_power_reserves_percentage": 100
+          },
+          "hull_integrity": {
+            "status": "excellent",
+            "integrity_percentage": 99.4,
+            "micro_meteor_impacts": 2,
+            "radiation_shielding_effectiveness": 97,
+            "cargo_bay_integrity": 99.8,
+            "pressure_seals_status": "optimal"
+          },
+          "cargo_systems": {
+            "cargo_bay_temperature_celsius": -5,
+            "cargo_securing_status": "locked",
+            "equipment_power_status": "standby",
+            "habitat_module_integrity": 99.6,
+            "automated_deployment_systems": "ready"
+          }
+        },
+        "automation_ai_systems": {
+          "primary_ai_status": "optimal",
+          "ai_decision_making_accuracy": 98.5,
+          "automated_systems_operational": 47,
+          "automated_systems_total": 48,
+          "autonomous_deployment_capability": true,
+          "self_repair_systems_status": "active",
+          "predictive_maintenance_active": true
+        },
+        "fuel_resources": {
+          "primary_fuel_percentage": 68,
+          "backup_fuel_percentage": 88,
+          "fuel_consumption_rate_optimal": true,
+          "estimated_fuel_at_destination": 18,
+          "reserve_for_orbital_operations": 12
+        },
+        "deployment_readiness": {
+          "landing_systems_status": "optimal",
+          "surface_scanning_equipment": "operational",
+          "terrain_mapping_complete_percentage": 85,
+          "landing_site_identified": true,
+          "deployment_sequence_programmed": true,
+          "estimated_setup_time_days": 45
+        },
+        "alerts": {
+          "critical_alerts": 0,
+          "warnings": 1,
+          "maintenance_due": 2,
+          "cargo_monitoring_alerts": 0
+        },
+        "environmental_preparation": {
+          "atmospheric_processors_ready": true,
+          "soil_analysis_equipment_ready": true,
+          "water_extraction_systems_ready": true,
+          "radiation_monitoring_deployed": false,
+          "weather_stations_count": 6
+        },
+        "notes": "Habitat ship performing excellently. All cargo secure and deployment systems ready. On schedule to arrive 90 days before crew ship. Automated systems at 98% operational capacity. Ready for autonomous surface deployment."
+      },
+      {
+        "ship_id": "HAB-002",
+        "ship_name": "Colony Seed Zeta",
+        "mission_outcome": "FAILURE",
+        "will_reach_destination": false,
+        "ship_type": "habitat_precursor",
+        "mission_details": {
+          "destination": "Proxima Centauri b",
+          "destination_coordinates": "14h 29m 43s, -62° 40' 46\"",
+          "distance_light_years": 4.24,
+          "estimated_journey_days": 650,
+          "current_day": 385,
+          "progress_percentage": 59,
+          "arrival_before_crew_days": 75,
+          "target_crew_ship": "SHIP-002"
+        },
+        "crew": {
+          "crew_type": "minimal_human",
+          "total_crew": 3,
+          "crew_health_average": 61,
+          "engineers": 2,
+          "scientists": 0,
+          "AI_technicians": 1,
+          "morale_score": 44,
+          "crew_in_stasis": false
+        },
+        "cargo_manifest": {
+          "habitat_modules": {
+            "living_quarters_units": 6,
+            "medical_facilities_units": 1,
+            "laboratory_units": 2,
+            "greenhouse_agricultural_units": 3,
+            "storage_units": 5,
+            "power_generation_units": 2,
+            "water_processing_units": 1,
+            "total_mass_tons": 380,
+            "deployment_readiness_percentage": 67
+          },
+          "construction_equipment": {
+            "automated_builders": 10,
+            "3d_printers_large": 3,
+            "excavation_drones": 6,
+            "solar_panel_arrays": 18,
+            "nuclear_reactors_portable": 1,
+            "total_mass_tons": 150,
+            "operational_status_percentage": 58
+          },
+          "supplies": {
+            "building_materials_tons": 420,
+            "food_reserves_tons": 52,
+            "water_initial_supply_liters": 32000,
+            "medical_supplies_tons": 8,
+            "scientific_equipment_tons": 28,
+            "spare_parts_tons": 38,
+            "seeds_genetic_vault_integrity": 84.2
+          },
+          "life_support_infrastructure": {
+            "oxygen_generators": 4,
+            "co2_scrubbers": 5,
+            "water_recycling_systems": 2,
+            "air_filtration_units": 8,
+            "backup_systems_redundancy": 1
+          }
+        },
+        "ship_systems": {
+          "propulsion": {
+            "status": "degraded",
+            "efficiency_percentage": 69,
+            "thrust_available_percentage": 74,
+            "last_maintenance_days_ago": 78,
+            "cargo_weight_compensation": "suboptimal"
+          },
+          "navigation": {
+            "status": "warning",
+            "course_deviation_degrees": 3.2,
+            "navigation_accuracy": 86.8,
+            "last_calibration_days_ago": 58,
+            "autonomous_navigation_active": false
+          },
+          "communications": {
+            "status": "degraded",
+            "signal_strength_percentage": 51,
+            "last_earth_contact_hours_ago": 42,
+            "last_crew_ship_contact_hours_ago": 48,
+            "backup_systems_operational": false,
+            "deep_space_relay_functional": false
+          },
+          "power_generation": {
+            "primary_reactor_output_percentage": 64,
+            "backup_reactor_output_percentage": 58,
+            "solar_panel_efficiency": 49,
+            "battery_charge_percentage": 56,
+            "cargo_power_reserves_percentage": 71
+          },
+          "hull_integrity": {
+            "status": "compromised",
+            "integrity_percentage": 87.6,
+            "micro_meteor_impacts": 52,
+            "radiation_shielding_effectiveness": 72,
+            "cargo_bay_integrity": 81.4,
+            "pressure_seals_status": "degraded"
+          },
+          "cargo_systems": {
+            "cargo_bay_temperature_celsius": 8,
+            "cargo_securing_status": "compromised",
+            "equipment_power_status": "intermittent",
+            "habitat_module_integrity": 88.3,
+            "automated_deployment_systems": "degraded"
+          }
+        },
+        "automation_ai_systems": {
+          "primary_ai_status": "degraded",
+          "ai_decision_making_accuracy": 76.2,
+          "automated_systems_operational": 28,
+          "automated_systems_total": 45,
+          "autonomous_deployment_capability": false,
+          "self_repair_systems_status": "limited",
+          "predictive_maintenance_active": false
+        },
+        "fuel_resources": {
+          "primary_fuel_percentage": 34,
+          "backup_fuel_percentage": 41,
+          "fuel_consumption_rate_optimal": false,
+          "estimated_fuel_at_destination": -15,
+          "reserve_for_orbital_operations": 0
+        },
+        "deployment_readiness": {
+          "landing_systems_status": "warning",
+          "surface_scanning_equipment": "degraded",
+          "terrain_mapping_complete_percentage": 42,
+          "landing_site_identified": false,
+          "deployment_sequence_programmed": false,
+          "estimated_setup_time_days": 95
+        },
+        "alerts": {
+          "critical_alerts": 6,
+          "warnings": 15,
+          "maintenance_due": 12,
+          "cargo_monitoring_alerts": 8
+        },
+        "environmental_preparation": {
+          "atmospheric_processors_ready": false,
+          "soil_analysis_equipment_ready": false,
+          "water_extraction_systems_ready": false,
+          "radiation_monitoring_deployed": false,
+          "weather_stations_count": 2
+        },
+        "notes": "CRITICAL MISSION FAILURE: Habitat ship experiencing catastrophic system failures. Insufficient fuel to reach destination. Cargo integrity compromised with multiple equipment failures. AI systems degraded. Cannot establish habitat before crew arrival. Mission abort recommended."
+      },
+      {
+        "ship_id": "HAB-003",
+        "ship_name": "Terraform Pioneer Delta",
+        "mission_outcome": "SUCCESS",
+        "will_reach_destination": true,
+        "ship_type": "habitat_precursor",
+        "mission_details": {
+          "destination": "TRAPPIST-1e",
+          "destination_coordinates": "23h 06m 29s, -05° 02' 29\"",
+          "distance_light_years": 39.5,
+          "estimated_journey_days": 490,
+          "current_day": 380,
+          "progress_percentage": 78,
+          "arrival_before_crew_days": 60,
+          "target_crew_ship": "SHIP-003"
+        },
+        "crew": {
+          "crew_type": "fully_automated",
+          "total_crew": 0,
+          "crew_health_average": null,
+          "engineers": 0,
+          "scientists": 0,
+          "AI_technicians": 0,
+          "morale_score": null,
+          "crew_in_stasis": false
+        },
+        "cargo_manifest": {
+          "habitat_modules": {
+            "living_quarters_units": 10,
+            "medical_facilities_units": 3,
+            "laboratory_units": 4,
+            "greenhouse_agricultural_units": 5,
+            "storage_units": 8,
+            "power_generation_units": 4,
+            "water_processing_units": 3,
+            "total_mass_tons": 580,
+            "deployment_readiness_percentage": 96
+          },
+          "construction_equipment": {
+            "automated_builders": 16,
+            "3d_printers_large": 6,
+            "excavation_drones": 12,
+            "solar_panel_arrays": 32,
+            "nuclear_reactors_portable": 3,
+            "total_mass_tons": 240,
+            "operational_status_percentage": 94
+          },
+          "supplies": {
+            "building_materials_tons": 680,
+            "food_reserves_tons": 110,
+            "water_initial_supply_liters": 75000,
+            "medical_supplies_tons": 22,
+            "scientific_equipment_tons": 58,
+            "spare_parts_tons": 92,
+            "seeds_genetic_vault_integrity": 99.6
+          },
+          "life_support_infrastructure": {
+            "oxygen_generators": 8,
+            "co2_scrubbers": 10,
+            "water_recycling_systems": 5,
+            "air_filtration_units": 16,
+            "backup_systems_redundancy": 4
+          }
+        },
+        "ship_systems": {
+          "propulsion": {
+            "status": "optimal",
+            "efficiency_percentage": 93,
+            "thrust_available_percentage": 97,
+            "last_maintenance_days_ago": 25,
+            "cargo_weight_compensation": "optimal"
+          },
+          "navigation": {
+            "status": "optimal",
+            "course_deviation_degrees": 0.06,
+            "navigation_accuracy": 99.4,
+            "last_calibration_days_ago": 15,
+            "autonomous_navigation_active": true
+          },
+          "communications": {
+            "status": "optimal",
+            "signal_strength_percentage": 84,
+            "last_earth_contact_hours_ago": 7,
+            "last_crew_ship_contact_hours_ago": 8,
+            "backup_systems_operational": true,
+            "deep_space_relay_functional": true
+          },
+          "power_generation": {
+            "primary_reactor_output_percentage": 92,
+            "backup_reactor_output_percentage": 98,
+            "solar_panel_efficiency": 86,
+            "battery_charge_percentage": 90,
+            "cargo_power_reserves_percentage": 96
+          },
+          "hull_integrity": {
+            "status": "excellent",
+            "integrity_percentage": 98.2,
+            "micro_meteor_impacts": 6,
+            "radiation_shielding_effectiveness": 95,
+            "cargo_bay_integrity": 98.8,
+            "pressure_seals_status": "optimal"
+          },
+          "cargo_systems": {
+            "cargo_bay_temperature_celsius": -3,
+            "cargo_securing_status": "locked",
+            "equipment_power_status": "standby",
+            "habitat_module_integrity": 98.9,
+            "automated_deployment_systems": "ready"
+          }
+        },
+        "automation_ai_systems": {
+          "primary_ai_status": "optimal",
+          "ai_decision_making_accuracy": 99.2,
+          "automated_systems_operational": 62,
+          "automated_systems_total": 63,
+          "autonomous_deployment_capability": true,
+          "self_repair_systems_status": "active",
+          "predictive_maintenance_active": true
+        },
+        "fuel_resources": {
+          "primary_fuel_percentage": 24,
+          "backup_fuel_percentage": 82,
+          "fuel_consumption_rate_optimal": true,
+          "estimated_fuel_at_destination": 14,
+          "reserve_for_orbital_operations": 10
+        },
+        "deployment_readiness": {
+          "landing_systems_status": "optimal",
+          "surface_scanning_equipment": "operational",
+          "terrain_mapping_complete_percentage": 94,
+          "landing_site_identified": true,
+          "deployment_sequence_programmed": true,
+          "estimated_setup_time_days": 38
+        },
+        "alerts": {
+          "critical_alerts": 0,
+          "warnings": 1,
+          "maintenance_due": 3,
+          "cargo_monitoring_alerts": 0
+        },
+        "environmental_preparation": {
+          "atmospheric_processors_ready": true,
+          "soil_analysis_equipment_ready": true,
+          "water_extraction_systems_ready": true,
+          "radiation_monitoring_deployed": false,
+          "weather_stations_count": 8
+        },
+        "notes": "Fully automated habitat ship on excellent trajectory. All systems optimal with 99.2% AI decision accuracy. Comprehensive cargo manifest with redundant systems. Landing site identified and deployment sequence ready. Will establish complete habitat 60 days before crew arrival."
+      },
+      {
+        "ship_id": "HAB-004",
+        "ship_name": "Genesis Carrier Omega",
+        "mission_outcome": "FAILURE",
+        "will_reach_destination": false,
+        "ship_type": "habitat_precursor",
+        "mission_details": {
+          "destination": "LHS 1140 b",
+          "destination_coordinates": "00h 44m 59s, -15° 16' 18\"",
+          "distance_light_years": 40.7,
+          "estimated_journey_days": 530,
+          "current_day": 298,
+          "progress_percentage": 56,
+          "arrival_before_crew_days": 85,
+          "target_crew_ship": "SHIP-004"
+        },
+        "crew": {
+          "crew_type": "minimal_human",
+          "total_crew": 5,
+          "crew_health_average": 58,
+          "engineers": 3,
+          "scientists": 1,
+          "AI_technicians": 1,
+          "morale_score": 39,
+          "crew_in_stasis": false
+        },
+        "cargo_manifest": {
+          "habitat_modules": {
+            "living_quarters_units": 7,
+            "medical_facilities_units": 2,
+            "laboratory_units": 2,
+            "greenhouse_agricultural_units": 3,
+            "storage_units": 4,
+            "power_generation_units": 2,
+            "water_processing_units": 2,
+            "total_mass_tons": 410,
+            "deployment_readiness_percentage": 54
+          },
+          "construction_equipment": {
+            "automated_builders": 9,
+            "3d_printers_large": 2,
+            "excavation_drones": 5,
+            "solar_panel_arrays": 16,
+            "nuclear_reactors_portable": 1,
+            "total_mass_tons": 135,
+            "operational_status_percentage": 48
+          },
+          "supplies": {
+            "building_materials_tons": 380,
+            "food_reserves_tons": 48,
+            "water_initial_supply_liters": 28000,
+            "medical_supplies_tons": 9,
+            "scientific_equipment_tons": 24,
+            "spare_parts_tons": 32,
+            "seeds_genetic_vault_integrity": 76.8
+          },
+          "life_support_infrastructure": {
+            "oxygen_generators": 3,
+            "co2_scrubbers": 4,
+            "water_recycling_systems": 2,
+            "air_filtration_units": 6,
+            "backup_systems_redundancy": 1
+          }
+        },
+        "ship_systems": {
+          "propulsion": {
+            "status": "critical",
+            "efficiency_percentage": 58,
+            "thrust_available_percentage": 66,
+            "last_maintenance_days_ago": 102,
+            "cargo_weight_compensation": "critical"
+          },
+          "navigation": {
+            "status": "critical",
+            "course_deviation_degrees": 4.8,
+            "navigation_accuracy": 79.4,
+            "last_calibration_days_ago": 74,
+            "autonomous_navigation_active": false
+          },
+          "communications": {
+            "status": "critical",
+            "signal_strength_percentage": 38,
+            "last_earth_contact_hours_ago": 68,
+            "last_crew_ship_contact_hours_ago": 72,
+            "backup_systems_operational": false,
+            "deep_space_relay_functional": false
+          },
+          "power_generation": {
+            "primary_reactor_output_percentage": 54,
+            "backup_reactor_output_percentage": 48,
+            "solar_panel_efficiency": 38,
+            "battery_charge_percentage": 47,
+            "cargo_power_reserves_percentage": 52
+          },
+          "hull_integrity": {
+            "status": "critical",
+            "integrity_percentage": 81.2,
+            "micro_meteor_impacts": 78,
+            "radiation_shielding_effectiveness": 64,
+            "cargo_bay_integrity": 74.6,
+            "pressure_seals_status": "critical"
+          },
+          "cargo_systems": {
+            "cargo_bay_temperature_celsius": 14,
+            "cargo_securing_status": "critical",
+            "equipment_power_status": "failing",
+            "habitat_module_integrity": 79.8,
+            "automated_deployment_systems": "offline"
+          }
+        },
+        "automation_ai_systems": {
+          "primary_ai_status": "critical",
+          "ai_decision_making_accuracy": 68.4,
+          "automated_systems_operational": 18,
+          "automated_systems_total": 52,
+          "autonomous_deployment_capability": false,
+          "self_repair_systems_status": "offline",
+          "predictive_maintenance_active": false
+        },
+        "fuel_resources": {
+          "primary_fuel_percentage": 28,
+          "backup_fuel_percentage": 32,
+          "fuel_consumption_rate_optimal": false,
+          "estimated_fuel_at_destination": -22,
+          "reserve_for_orbital_operations": 0
+        },
+        "deployment_readiness": {
+          "landing_systems_status": "critical",
+          "surface_scanning_equipment": "offline",
+          "terrain_mapping_complete_percentage": 28,
+          "landing_site_identified": false,
+          "deployment_sequence_programmed": false,
+          "estimated_setup_time_days": 140
+        },
+        "alerts": {
+          "critical_alerts": 11,
+          "warnings": 24,
+          "maintenance_due": 18,
+          "cargo_monitoring_alerts": 14
+        },
+        "environmental_preparation": {
+          "atmospheric_processors_ready": false,
+          "soil_analysis_equipment_ready": false,
+          "water_extraction_systems_ready": false,
+          "radiation_monitoring_deployed": false,
+          "weather_stations_count": 0
+        },
+        "notes": "CATASTROPHIC FAILURE: Mission cannot be completed. Multiple critical system failures across all departments. Cargo severely compromised with 65% of automated systems offline. Insufficient fuel. Hull integrity critical. Genetic vault degraded. Cannot establish habitat. Crew ship SHIP-004 will arrive to unprepared planet. Emergency intervention required."
+      }
+    ],
+    "metadata": {
+      "dataset_version": "1.0",
+      "created_date": "2025-10-04",
+      "purpose": "AI training data for habitat ship mission outcome prediction",
+      "ship_type_description": "Habitat precursor ships carry infrastructure, supplies, and equipment to establish planetary habitats before crew arrival",
+      "success_indicators": [
+        "Cargo deployment readiness > 90%",
+        "Fuel sufficient for destination + orbital operations",
+        "Automated systems operational > 90%",
+        "Hull and cargo bay integrity > 95%",
+        "AI decision accuracy > 95%",
+        "Critical alerts = 0",
+        "Landing systems optimal",
+        "Habitat module integrity > 95%",
+        "Sufficient lead time before crew arrival"
+      ],
+      "failure_indicators": [
+        "Cargo deployment readiness < 70%",
+        "Insufficient fuel (negative at destination)",
+        "Multiple critical alerts (> 5)",
+        "Automated systems operational < 60%",
+        "Hull or cargo integrity < 85%",
+        "AI systems degraded or critical",
+        "Landing systems compromised",
+        "Cargo securing compromised",
+        "Equipment power failing"
+      ],
+      "mission_phases": [
+        "transit",
+        "orbital_insertion",
+        "surface_scanning",
+        "landing",
+        "deployment",
+        "habitat_establishment",
+        "crew_arrival_preparation"
+      ]
+    }
+  }
+}
